@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
  * Created by guang on 9:04 PM 10/27/18.
  */
 @Repository
-public interface EmployeeDao extends JpaRepository<Long, Employee> {
+public interface EmployeeDao extends JpaRepository<Employee, Long> {
 }
